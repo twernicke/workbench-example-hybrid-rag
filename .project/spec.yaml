@@ -102,8 +102,10 @@ execution:
       requested: 1
     sharedMemoryMB: 4096
   secrets:
-  - variable: aiwb_oct24_nvdev
-    description: ""
+  - variable: aiwb_oct24
+    description: NV-Dev
+  - variable: testoct24
+    description: nv-dev
   mounts:
   - type: project
     target: /project/
